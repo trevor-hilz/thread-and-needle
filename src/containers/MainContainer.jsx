@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import PriceContainer from './PriceContainer';
 import Slideshow from './Slideshow';
+import Description from '../components/Description';
 
 const MainContainer = () => {
   return (
@@ -13,6 +14,9 @@ const MainContainer = () => {
       </div>
       <div>
         <Slideshow />
+      </div>
+      <div>
+        <Description />
       </div>
     </div>
   );

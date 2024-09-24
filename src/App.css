@@ -13,7 +13,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   background-color: pink;
 }
 
@@ -49,11 +49,38 @@ body {
   padding-top: 2em;
 }
 
+.PriceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 25vw;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
 .Prices {
   border: rgb(255, 0, 0) solid 5px;
   border-radius: 15%;
   gap: 1em;
   padding: 1em;
+}
+
+.Slideshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 15%; */
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.Description {
+  width: 50vw;
+  display: flex;
+  padding-top: 5vh;
+  margin: auto;
 }
 
 .Footer {
