@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: pink;
+}
+
+.Content {
+  flex: 1;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 99, 99);
+}
+
+.HeaderRight {
+  display: flex;
+  padding-right: 2em;
+  padding-top: 1em;
+  gap: 2em;
+}
+
+.HeaderLeft {
+  display: flex;
+  padding-left: 2em;
+  padding-top: 1em;
+  gap: 2em;
+}
+
+.PriceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.Prices {
+  border: rgb(255, 0, 0) solid 5px;
+  border-radius: 15%;
+  gap: 1em;
+  padding: 1em;
+}
+
+.Footer {
+  margin-top: auto;
+  padding: 0.25em;
+  background-color: rgb(253, 166, 181);
+  text-align: center;
+}
