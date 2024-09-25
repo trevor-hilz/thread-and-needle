@@ -14,6 +14,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   height: 100vh;
   max-width: 80vw;
   margin: auto;
@@ -26,15 +27,17 @@ body {
 
 .Header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   background-color: rgb(255, 99, 99);
+  padding-bottom: 1em;
 }
 
 .HeaderRight {
   display: flex;
   padding-right: 2em;
   padding-top: 1em;
+
   gap: 2em;
 }
 
@@ -47,27 +50,29 @@ body {
 
 .PriceContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 2em;
-}
-
-.PriceContainer {
-  display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
-  gap: 25vw;
+  gap: 18vw;
+  padding-top: 2em;
 }
 
 .logo {
   border-radius: 50%;
+  box-shadow: 10px 10px 5px lightgray;
 }
 
 .Prices {
-  border: rgb(255, 0, 0) solid 5px;
+  /* border: rgb(255, 0, 0) solid 5px; */
   border-radius: 15%;
-  gap: 1em;
+  gap: 2em;
   padding: 1em;
+}
+
+.BookButton {
+  border: grey 1px solid;
+  border-radius: 0.5em;
+  margin: 1em;
 }
 
 .Slideshow {
@@ -76,7 +81,8 @@ body {
   align-items: center;
   /* margin-left: 15%; */
   margin: auto;
-  padding-top: 10vh;
+  padding-top: 6vh;
+  max-width: 25%;
 }
 
 .Description {

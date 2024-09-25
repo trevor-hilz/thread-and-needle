@@ -1,15 +1,11 @@
-import Header from '../components/Header';
 import PriceContainer from './PriceContainer';
 import Slideshow from './Slideshow';
 import Description from '../components/Description';
-import Footer from '../components/Footer';
+// import Header from '../components/Header';
 
 const MainContainer = () => {
   return (
     <div>
-      <div>
-        <Header />
-      </div>
       <div className='PriceContainer'>
         <PriceContainer />
       </div>
@@ -18,9 +14,6 @@ const MainContainer = () => {
       </div>
       <div>
         <Description />
-      </div>
-      <div class='Footer'>
-        <Footer />
       </div>
     </div>
   );
