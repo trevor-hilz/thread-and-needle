@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stack children (MainContainer and Footer) vertically */
+  min-height: 100vh;
+  max-width: 60vw;
+  margin: auto;
+  background-color: pink;
+}
+
+.MainContainer {
+  background-color: pink;
+  flex-grow: 1; /* This ensures the main content takes up remaining space */
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 15vh;
+  padding: 0em 1em 0em 1em;
+  background-color: lightgrey;
+}
+
+.Header {
+  display: flex;
+  gap: 2em;
+}
+
+.Instagram {
+  height: 1.5em;
+  border-radius: 50%;
+}
+
+.HeaderImage {
+  width: 15%;
+  border-radius: 50%;
+  box-shadow: 10px 10px 8px rgb(255, 86, 86);
+}
+
+.BodyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  gap: 1em;
+}
+
+.Slides {
+  max-width: 18vw;
+  border: black solid 1px;
+  box-shadow: 5px 5px 2px black;
+  border-radius: 20%;
+}
+
+.Prices {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+}
+
+.Description {
+  margin: 3em;
+}
+
+.Footer {
+  margin-top: auto; /* Pushes Footer to the bottom */
+  padding: 1em;
+  background-color: rgb(253, 166, 181);
+  text-align: center;
+  font-size: 0.75em; /* Adjust this to control text size */
+  width: 100%; /* Ensure the footer spans the full width of the .App container */
+}
